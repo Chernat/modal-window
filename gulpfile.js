@@ -5,7 +5,7 @@ var plumber = require('gulp-plumber');
 gulp.task('sass', function() {
   return gulp.src('src/scss/style.scss')
     .pipe(plumber())
-    .pipe(sass())
+    .pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
     .pipe(gulp.dest('src/css'));
 });
 
