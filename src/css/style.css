@@ -22,6 +22,7 @@
 
 .modal__text_margin {
   margin-bottom: 20px;
+  text-align: left;
 }
 
 .modal__window {
@@ -38,7 +39,7 @@
 .modal__window-cross {
   position: absolute;
   top: 5px;
-  left: 95%;
+  right: 2%;
   padding: 0 5px;
   padding-bottom: 2px;
   font-size: 0.9em;
