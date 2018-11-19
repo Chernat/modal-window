@@ -18,7 +18,7 @@
   }
 
   &__window {
-    width:600px;
+    max-width:600px;
     background-color: $modal-background;
     padding: 30px 40px;
     position: absolute;
